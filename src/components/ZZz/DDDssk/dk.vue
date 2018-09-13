@@ -91,9 +91,10 @@
         /* padding: 10px; */
         border-radius: 5px;
         background: #fff;
-        position: relative;
+        position: absolute;
         box-shadow: 0 0 4px rgba(0, 0, 0, .1);
         display: none;
+        z-index: 100;
     }
 
     .no-empty-div:before {

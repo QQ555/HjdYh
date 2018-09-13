@@ -121,10 +121,10 @@
                                     <span>软装单体</span>
                                 </div>
                                 <div class="rmad">
-                                    <a href="#" v-for='a in aa'>{{a}}</a>
+                                    <a href="#" v-for='a in aa' :key="a">{{a}}</a>
                                 </div>
                                 <div class="rmad_1">
-                                    <a class="bbq" href="#" v-for='b in bb'>{{b}} </a>
+                                    <a class="bbq" href="#" v-for='b in bb' :key="b">{{b}} </a>
                                 </div>
                             </div>
                             <div class="rm">
@@ -133,19 +133,19 @@
                                     <span>空间场景</span>
                                 </div>
                                 <div class="rmad">
-                                    <a href="#" v-for='c in cc'>{{c}}</a>
+                                    <a href="#" v-for='c in cc' :key="c">{{c}}</a>
                                 </div>
                                 <div class="rmad_1">
-                                    <a class="aaq" href="#" v-for='d in dd'> {{d}} </a>
+                                    <a class="aaq" href="#" v-for='d in dd' :key="d"> {{d}} </a>
                                     <a href="#" style="height:26px !important;"></a>
                                 </div>
                                 <div class="rmad_1">
-                                    <a href="#" v-for='e in ee'> {{e}} </a>
+                                    <a href="#" v-for='e in ee' :key="e"> {{e}} </a>
                                     <a href="#" style="height:26px !important;"></a>
                                     <a href="#" style="height:26px !important;"></a>
                                 </div>
                                 <div class="rmad_1">
-                                    <a href="#" v-for='f in ff'> {{f}} </a>
+                                    <a href="#" v-for='f in ff' :key="f"> {{f}} </a>
                                 </div>
                             </div>
                             <div id="rmm">
@@ -154,7 +154,7 @@
                                     <span>品牌模型</span>
                                 </div>
                                 <div id="pp">
-                                    <a href="#" v-for='g in gg'>{{g}} </a>
+                                    <a href="#" v-for='g in gg' :key="g">{{g}} </a>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +188,7 @@
                                     <span>空间</span>
                                 </div>
                                 <div id="big-nav2">
-                                    <a href="#" v-for='h in hh'>{{h}}</a>
+                                    <a href="#" v-for='h in hh' :key="h">{{h}}</a>
                                 </div>
                             </div>
                         </div>
