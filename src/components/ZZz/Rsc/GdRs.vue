@@ -126,6 +126,7 @@
         /* display: none; */
         right: -169px;
         display: none;
+        z-index: 100;
     }
 
     .ctt:before {

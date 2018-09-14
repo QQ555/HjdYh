@@ -4,6 +4,8 @@
         <gdrs/>
         <lunbo/>
         <lbgg/>
+        <aflcx/>
+        <rz/>
     </div>
 </template>
 
@@ -12,6 +14,9 @@ import dk from '@/components/ZZz/DDDssk/dk'
 import gdrs from '@/components/ZZz/Rsc/GdRs'
 import lunbo from '@/components/ZZz/LunBo/lunbo'
 import lbgg from '@/components/ZZz/LbGg/lbgg'
+import aflcx from '@/components/ZZz/AflCx/aflcx'
+import rz from '@/components/ZZz/MxJx/Rz'
+
 
 
     export default {
@@ -19,6 +24,9 @@ import lbgg from '@/components/ZZz/LbGg/lbgg'
             dk,
             gdrs,
             lunbo,
+            lbgg,
+            aflcx,
+            rz,
         }
     };
 </script>
