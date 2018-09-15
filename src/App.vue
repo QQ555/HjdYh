@@ -2,13 +2,18 @@
   <div id="app">
     <gg/>
     <dbdh/>
+    <ycl/>
     <router-view/>
+    <dbxz/>
   </div>
 </template>
 
 <script>
 import gg from '@/components/GGg/gg'
 import dbdh from '@/components/dbDhl/dbdh'
+import dbxz from '@/components/DbGd/dbxz'
+import ycl from '@/components/Ycl/ycl'
+
 
 import axios from 'axios'
 export default {
@@ -16,6 +21,8 @@ export default {
   components:{
     gg,
     dbdh,
+    dbxz,
+    ycl
   }
 }
 </script>

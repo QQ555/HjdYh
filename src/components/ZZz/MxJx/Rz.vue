@@ -13,6 +13,9 @@
             <nhymx/>
             <ppmx/>
             <msal/>
+            <xsmx/>
+            <cwwz/>
+            <yqlj/>
         </div>
     </div>
 </template>
@@ -26,6 +29,9 @@ import xzph from "@/components/ZZz/MxJx/XzPh";
 import nhymx from "@/components/ZZz/MxJx/NhyMx";
 import ppmx from "@/components/ZZz/MxJx/PpMx";
 import msal from "@/components/ZZz/MxJx/MsAl";
+import xsmx from "@/components/ZZz/MxJx/XsMx";
+import cwwz from "@/components/ZZz/MxJx/CwWz";
+import yqlj from "@/components/ZZz/MxJx/YqLj";
 
 export default {
   components: {
@@ -36,7 +42,10 @@ export default {
     xzph,
     nhymx,
     ppmx,
-    msal
+    msal,
+    xsmx,
+    cwwz,
+    yqlj,
   }
 };
 </script>

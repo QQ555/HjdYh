@@ -16,7 +16,8 @@
                 <li>葛亚曦</li>
             </ul>
             <div class="phc">
-                <a href="#" style="color: #999;font: normal 14px/24px Microsoft YaHei;">更多排行
+                <a href="#" style="color: #999;font: normal 14px/24px Microsoft YaHei;">
+                    查看更多
                     <i class="i6">></i>
                 </a>
             </div>
@@ -45,32 +46,32 @@
                                         <a href="#"><img src="http://small.justeasy.cn/2016_3upimg/2016031509190491491.jpg"
                                                 alt=""></a>
                                     </div>
-                                    <h3><a href="#">欧式新古典卧室</a></h3>
-                                    <a href="#"><span>设计师：季裕堂</span></a>
+                                    <h3><a href="#" class="bs">欧式新古典卧室</a></h3>
+                                    <a href="#"><span class="bs">设计师：季裕堂</span></a>
                                 </li>
                                 <li class="ttq">
                                     <div class="pic">
                                         <a href="#"><img src="http://small.justeasy.cn/2015_12upimg/20151218094048564856.jpg"
                                                 alt=""></a>
                                     </div>
-                                    <h3><a href="#">现代餐桌椅组合</a></h3>
-                                    <a href="#"><span>设计师：季裕堂</span></a>
+                                    <h3><a href="#" class="bs">现代餐桌椅组合</a></h3>
+                                    <a href="#"><span class="bs">设计师：季裕堂</span></a>
                                 </li>
                                 <li class="ttq">
                                     <div class="pic">
                                         <a href="#"><img src="http://small.justeasy.cn/2014_10upimg/20141017144864776477.jpg"
                                                 alt=""></a>
                                     </div>
-                                    <h3><a href="#">现代卧室</a></h3>
-                                    <a href="#"><span>设计师：季裕堂</span></a>
+                                    <h3><a href="#" class="bs">现代卧室</a></h3>
+                                    <a href="#"><span class="bs">设计师：季裕堂</span></a>
                                 </li>
                                 <li class="ttq">
                                     <div class="pic">
                                         <a href="#"><img src="http://small.justeasy.cn/201711/20171102140319_59fab52739a4f.jpg"
                                                 alt=""></a>
                                     </div>
-                                    <h3><a href="#">季裕棠现代端景台</a></h3>
-                                    <a href="#"><span>设计师：季裕堂</span></a>
+                                    <h3><a href="#" class="bs">季裕棠现代端景台</a></h3>
+                                    <a href="#"><span class="bs">设计师：季裕堂</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -289,5 +290,9 @@
         color: #666;
         text-align: left;
 
+    }
+
+    .bs:hover {
+        color: #ee7800;
     }
 </style>
