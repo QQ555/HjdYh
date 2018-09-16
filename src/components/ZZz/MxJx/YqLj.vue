@@ -80,7 +80,7 @@
 
     .links {
         width: 1200px;
-        margin: 20px auto 50px;
+        margin: 20px auto 0;
         height:100px;
     }
     .links>ul{

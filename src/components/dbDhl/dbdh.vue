@@ -6,8 +6,8 @@
                 <div id="q1">
                     <div id="xz">
                         <a href="#" id="qs" @click="myClick"></a>
-                        <div id="ssk">
-                            <div id="xl">
+                        <div class="ssk">
+                            <div class="xl">
                                 <el-dropdown>
                                     <span class="el-dropdown-link" style="font-size: 14px !important; ">
                                         3D模型
@@ -23,8 +23,8 @@
                                 </el-dropdown>
                             </div>
 
-                            <input type="text" id="input_1">
-                            <input type="text" id="input_2">
+                            <input type="text" class="input_1">
+                            <input type="text" class="input_2">
                         </div>
                     </div>
                     <div id="zt">
@@ -91,7 +91,7 @@
             <div class="box" id="ly">
                 <ul id="hello">
                     <li class="ltt" @mouseenter="jin" @mouseleave="li">
-                        <a href="#">3D模型</a>
+                        <a href="/">3D模型</a>
                         <div id="ltt1">
                             <div id="tou">
                                 <ul id="tou_ul">
@@ -159,8 +159,10 @@
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <a href="#">年会员</a>
+
+                    <li @click="tb">
+                        <!-- <a href="/nhy"></a> -->
+                        年会员
                     </li>
                     <li class="ltt"   @mouseenter="ru" @mouseleave="kai">
                         <a href="#"> 贴图 </a>
@@ -219,6 +221,8 @@
 </template>
 
 <script>
+import router from '../../router'
+
     export default {
         data() {
             return {
@@ -275,8 +279,11 @@
             };
         },
         methods: {
+            tb(){
+                router.push('/nhy')
+            },
             myClick() {
-                $("#ssk").css({
+                $(".ssk").css({
                     display: "block"
                 });
                 $("#qs").css({
@@ -441,7 +448,8 @@
         top: 12px;
     }
 
-    #ssk {
+    
+    .ssk {
         width: 280px;
         height: 30px;
         background: #fff;
@@ -457,7 +465,7 @@
         display: none;
     }
 
-    #xl {
+    .xl {
         width: 80px;
         height: 30px;
         padding-top: 5px;
@@ -465,7 +473,7 @@
         float: left;
     }
 
-    #input_1 {
+    .input_1 {
         background: #fff;
         line-height: 20px;
         width: 148px;
@@ -479,7 +487,7 @@
         margin-left: 5px;
     }
 
-    #input_2 {
+    .input_2 {
         position: absolute;
         right: 0;
         top: 0;
