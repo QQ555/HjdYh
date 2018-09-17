@@ -91,7 +91,8 @@
             <div class="box" id="ly">
                 <ul id="hello">
                     <li class="ltt" @mouseenter="jin" @mouseleave="li">
-                        <a href="/">3D模型</a>
+                        <!-- <a href="/"></a> -->
+                        <router-link to="/">3D模型 </router-link>
                         <div id="ltt1">
                             <div id="tou">
                                 <ul id="tou_ul">
@@ -160,9 +161,10 @@
                         </div>
                     </li>
 
-                    <li @click="tb">
+                    <li>
                         <!-- <a href="/nhy"></a> -->
-                        年会员
+                        <router-link to="nhy">年会员 </router-link>
+
                     </li>
                     <li class="ltt"   @mouseenter="ru" @mouseleave="kai">
                         <a href="#"> 贴图 </a>
@@ -196,7 +198,8 @@
                         </div>
                     </li>
                     <li>
-                        <a href="#">效果图 </a>
+                        <!-- <a href="/ggx">效果图 </a> -->
+                        <router-link to="ggx">效果图 </router-link>
                     </li>
                     <li>
                         <a href="#">优选商城
@@ -279,9 +282,7 @@ import router from '../../router'
             };
         },
         methods: {
-            tb(){
-                router.push('/nhy')
-            },
+           
             myClick() {
                 $(".ssk").css({
                     display: "block"
